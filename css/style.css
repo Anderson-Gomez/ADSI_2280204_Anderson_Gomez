@@ -10,3 +10,32 @@ h1 {
 .fuente-negrita {
     font-weight: bold;
 }
+.estilo-normal {
+    font-weight: normal;
+}
+.estilo-italico {
+    font-style: italic;
+    font-size: 32px;
+    font-weight: bold;
+}
+.fuente-frase {
+    font-family: 'Merienda One', cursive;
+    font-size: 30px;
+}
+.fuente-bungge {
+    font-family: 'Bungee';
+    font-size: 30px;
+}
+/* bungee-regular - latin */
+@font-face {
+    font-family: 'Bungee';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/bungee-v6-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/bungee-v6-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bungee-v6-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bungee-v6-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/bungee-v6-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bungee-v6-latin-regular.svg#Bungee') format('svg'); /* Legacy iOS */
+  }
