@@ -1,0 +1,24 @@
+.aliniacion-derecha {
+    text-align: right;
+}
+p {
+    font-size: 1.5em;
+}
+.aliniacion-centro {
+    text-align: center;
+}
+p {
+    font-size: 1.5em;
+}
+.aliniacion-izquierda {
+    text-align: left;
+}
+p {
+    font-size: 1.5em;
+}
+.aliniacion-justificada {
+    text-align: justify;
+}
+p {
+    font-size: 1.5em;
+}
